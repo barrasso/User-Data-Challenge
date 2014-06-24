@@ -21,6 +21,11 @@
 		049801721953CC7E00E5DCA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049801541953CC7E00E5DCA3 /* UIKit.framework */; };
 		0498017A1953CC7E00E5DCA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 049801781953CC7E00E5DCA3 /* InfoPlist.strings */; };
 		0498017C1953CC7E00E5DCA3 /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498017B1953CC7E00E5DCA3 /* User_Data_ChallengeTests.m */; };
+		049801871954999C00E5DCA3 /* UDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 049801861954999C00E5DCA3 /* UDUserData.m */; };
+		0498018C1954A99400E5DCA3 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 049801881954A99400E5DCA3 /* person1.jpeg */; };
+		0498018D1954A99400E5DCA3 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 049801891954A99400E5DCA3 /* person2.jpeg */; };
+		0498018E1954A99400E5DCA3 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0498018A1954A99400E5DCA3 /* person3.jpg */; };
+		0498018F1954A99400E5DCA3 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0498018B1954A99400E5DCA3 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		049801771953CC7E00E5DCA3 /* User Data ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		049801791953CC7E00E5DCA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0498017B1953CC7E00E5DCA3 /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
+		049801851954999C00E5DCA3 /* UDUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDUserData.h; sourceTree = "<group>"; };
+		049801861954999C00E5DCA3 /* UDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDUserData.m; sourceTree = "<group>"; };
+		049801881954A99400E5DCA3 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		049801891954A99400E5DCA3 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		0498018A1954A99400E5DCA3 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		0498018B1954A99400E5DCA3 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,8 @@
 				049801621953CC7E00E5DCA3 /* Main.storyboard */,
 				049801651953CC7E00E5DCA3 /* UDViewController.h */,
 				049801661953CC7E00E5DCA3 /* UDViewController.m */,
+				049801851954999C00E5DCA3 /* UDUserData.h */,
+				049801861954999C00E5DCA3 /* UDUserData.m */,
 				049801681953CC7E00E5DCA3 /* Images.xcassets */,
 				049801571953CC7E00E5DCA3 /* Supporting Files */,
 			);
@@ -126,6 +139,10 @@
 		049801571953CC7E00E5DCA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				049801881954A99400E5DCA3 /* person1.jpeg */,
+				049801891954A99400E5DCA3 /* person2.jpeg */,
+				0498018A1954A99400E5DCA3 /* person3.jpg */,
+				0498018B1954A99400E5DCA3 /* person4.jpeg */,
 				049801581953CC7E00E5DCA3 /* User Data Challenge-Info.plist */,
 				049801591953CC7E00E5DCA3 /* InfoPlist.strings */,
 				0498015C1953CC7E00E5DCA3 /* main.m */,
@@ -229,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498018E1954A99400E5DCA3 /* person3.jpg in Resources */,
+				0498018C1954A99400E5DCA3 /* person1.jpeg in Resources */,
 				049801691953CC7E00E5DCA3 /* Images.xcassets in Resources */,
 				0498015B1953CC7E00E5DCA3 /* InfoPlist.strings in Resources */,
+				0498018F1954A99400E5DCA3 /* person4.jpeg in Resources */,
 				049801641953CC7E00E5DCA3 /* Main.storyboard in Resources */,
+				0498018D1954A99400E5DCA3 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0498015D1953CC7E00E5DCA3 /* main.m in Sources */,
+				049801871954999C00E5DCA3 /* UDUserData.m in Sources */,
 				049801611953CC7E00E5DCA3 /* UDAppDelegate.m in Sources */,
 				049801671953CC7E00E5DCA3 /* UDViewController.m in Sources */,
 			);
